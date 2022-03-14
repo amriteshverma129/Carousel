@@ -1,0 +1,95 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .row {
+  height: 500px;
+  width: 80%;
+  position: relative;
+  overflow: hidden;
+}
+
+.container .row .tab {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.container .row .tab1 {
+  background-color: red;
+}
+
+.container .row .tab2 {
+  background-color: aqua;
+}
+
+.container .row .tab3 {
+  background-color: greenyellow;
+}
+
+.container button {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 1px solid black;
+  font-size: 13px;
+  background: transparent;
+}
+
+.container .prev {
+  left: 20px;
+}
+
+.container .prev:hover {
+  background: white;
+}
+
+.container .next {
+  right: 20px;
+}
+
+.container .next:hover {
+  background: white;
+}
+
+.container2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container2 .carouselDot {
+  background-color: grey;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  border: 0px;
+  margin: 5px;
+}
+
+.container2 .currentDot {
+  background-color: black;
+}
+/*# sourceMappingURL=carousel.css.map */
