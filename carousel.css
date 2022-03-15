@@ -27,18 +27,20 @@
   height: 100%;
   width: 100%;
   position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container .row .tab1 {
-  background-color: red;
+  background-image: url(./Image/image1.jpg);
 }
 
 .container .row .tab2 {
-  background-color: aqua;
+  background-image: url(./Image/image2.jpg);
 }
 
 .container .row .tab3 {
-  background-color: greenyellow;
+  background-image: url(./Image/image3.jpg);
 }
 
 .container button {

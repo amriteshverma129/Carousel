@@ -17,17 +17,17 @@
             height: 100%;
             width : 100%;
             position: absolute;
-            // background-size: cover;
-            // background-repeat: no-repeat;
+            background-size: cover;
+            background-repeat: no-repeat;
         }
         .tab1{
-            background-color: red;
+           background-image: url(./Image/image1.jpg);
         }
         .tab2{
-            background-color: aqua;
+            background-image: url(./Image/image2.jpg);
         }
         .tab3{
-            background-color: greenyellow;
+            background-image: url(./Image/image3.jpg);
         }
     }
     button {
